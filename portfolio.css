@@ -68,14 +68,19 @@ color: #474747;
 
 }
 /* main section style  */
-.about{
-padding: 131px;
-border-radius: 10px;
-background: #FFF8F3;
-margin: 130px;
-
+main{ 
+        width:1140px ;
+        height:550px ;
+        margin: 0 auto;
 }
 /* about section style */
+.about{
+        padding: 131px;
+        border-radius: 10px;
+        background: #FFF8F3;
+        margin: 130px;
+        
+        }
 .section-title{
         
         color:  #181818;
@@ -91,6 +96,12 @@ margin: 130px;
         font-weight: 400;
         line-height: 30px;}
 
+        .about-info-container{
+                display: flex;
+        justify-content: space-between;}
 
+        .about-info{
+                text-align: center;
+        }
 
                 
