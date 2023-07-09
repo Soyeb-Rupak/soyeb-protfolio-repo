@@ -98,10 +98,17 @@ main{
 
         .about-info-container{
                 display: flex;
-        justify-content: space-between;}
+        justify-content: space-around;}
 
         .about-info{
                 text-align: center;
         }
 
+        #what-i-do-description {padding:33px 150px}
+
                 
+.skill-container{display: flex;
+justify-content: space-around;}
+
+
+.
