@@ -10,7 +10,7 @@ body{
                     font-style: normal;
                     font-weight: 700;
                     border: 0;
-                padding: 18px 35px;}
+                    padding: 15px 35px;}
 
 
 /* nav related style */
@@ -38,14 +38,58 @@ color: #474747;
 /* header related style  */
 .header{ 
     background-color: #FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{ pad: 30px 30px 30px 150px;
-display: flex;
-align-items: center;}
+.banner{ padding: 30px 30px 0px 150px;
+         display: flex;
+         align-items: center;
+        justify-content: space-between;}
 
 .banner .profile-pic{ width: 500px;}
+.banner-greetings{color:#474747;
+                  font-size: 45px;
+                  margin-bottom: 0px;
+                    }
 
+.banner-title{ color:#181818;
+                font-size: 65px;
+                font-weight: 600;
+                margin-top: 05px;
+               }
+ .banner-description{   margin-top: 20px;
+                        color: #757575;
+                        font-size: 18px;
+                        font-weight: 400;
+                        }              
+.banner-content{max-width: 500px;
+               
 
+}
+/* main section style  */
+.about{
+padding: 131px;
+border-radius: 10px;
+background: #FFF8F3;
+margin: 130px;
+
+}
+/* about section style */
+.section-title{
+        
+        color:  #181818;
+        text-align: center;
+        font-size: 35px;
+         font-weight: 700;
+        align-items: center;}
+               
+.section-description{color:  #757575;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;}
 
 
 
