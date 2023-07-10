@@ -105,10 +105,32 @@ main{
         }
 
         #what-i-do-description {padding:33px 150px}
-
+/* skill container  */
                 
 .skill-container{display: flex;
-justify-content: space-around;}
+                 justify-content: space-around;
+                 gap: 24px;
+                }
+.skill{ padding: 33px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);}
 
+.skill-description{ color:  #757575;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+}
 
-.
+main section{ margin-top: 130px;}
+
+/* Resume section style */
+.resume-column-title{
+
+        color: #474747;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+}
+.resume-container{ display: flex;
+gap: 50px;}
